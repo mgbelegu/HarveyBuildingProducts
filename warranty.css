@@ -106,6 +106,16 @@ select {
     margin-top: 64px;
 }
 
+
+.warrantybox-mobile {
+    display: none;
+}
+
+
+.warrantybox-mobile img{
+    width: 100%;
+}
+
 .warranty-mobile h3 {
     color: #c41230;
     font-size: 26px;
@@ -200,6 +210,10 @@ div.row.active h5 {
     }
 
     .warranty-mobile {
+        display: block;
+    }
+
+    .warrantybox-mobile {
         display: block;
     }
 }
