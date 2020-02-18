@@ -398,7 +398,7 @@ div.windows {
 }
 
 .slideNext{
-    right: 12px;
+    right: 35px;
     position: absolute;
     cursor: pointer;
 }
@@ -408,4 +408,207 @@ div.windows {
     margin-left: -50px;
     position: absolute;
     cursor: pointer;
+}
+
+li.lslide.active img{
+    width: 100%;
+}
+
+.map-responsive1 {
+    display: none;
+}
+
+.map-responsive2 {
+    display: none;
+}
+
+.row.topofmap{
+    margin-right: 0px !important;
+}
+
+@media only screen and (max-width: 1295px) {
+    .container-fluid .row .col {
+        margin: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1165px){
+    .visit-showroom .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visit-showroom .col.rightcol {
+        display: flex;
+        justify-content: center;
+    }
+
+    .visit-showroom .col {
+        padding: 11px;
+    }
+
+    .visit-showroom h3 {
+        margin-top: 22px;
+        margin-bottom: 12px;
+    }
+
+    .suppLink {
+        display: none   ;
+    }
+
+    .slidePrev {
+        margin-left: 15px;
+    }
+
+    .visit-showroom .row {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .visit-showroom {
+       margin-top: 64px !important;
+    }
+
+    .visit-showroom h1 {
+        margin-top: 0px !important;
+    }
+
+    .row.findharvey {
+        margin-right: 0px;
+    }
+
+    .row.windowdesigner {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .slider-HowToBuy {
+        width: 550px;
+        padding-right: 25px;
+    }
+
+    li.lslide.active{
+        width: 550px;
+    }
+
+    .visit-showroom h3 {
+        font-size: 17px;
+    }
+
+    .visit-showroom p {
+        font-size: 11px;
+    }
+
+    .visit-showroom h1{
+        font-size: 26px;
+    }
+
+    .row.topofmap p {
+        display: none;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    input{
+        font-size: 11px;
+    }
+
+    .row.topofmap {
+        display: flex;
+        justify-content: start !important;
+    }
+
+    .row.findharvey {
+        padding: 15px 11px;
+    }
+
+    .row.findharvey button {
+        margin-top: 39px;
+    }
+
+    .row.findharvey input {
+        margin-top: 39px;
+    }
+
+    .row.windowdesigner {
+        padding: 15px 11px;
+    }
+
+    .row.windowdesigner button {
+        margin-top: 39px;
+    }
+
+    .row.windowdesigner input {
+        margin-top: 39px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .map-responsive {
+        display: none;
+    }
+
+    .map-responsive1 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .slider-HowToBuy {
+        width: 500px;
+        padding-right: 25px;
+    }
+
+    li.lslide.active{
+        width: 500px;
+    }
+
+    .slideControls {
+        top: 145px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .slider-HowToBuy {
+        width: 400px;
+        padding-right: 25px;
+    }
+
+    li.lslide.active{
+        width: 400px;
+    }
+
+    .slideControls {
+        top: 75px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .map-responsive1 {
+        display: none;
+    }
+
+    .map-responsive2 {
+        display: block;
+    }
+
+    .slider-HowToBuy {
+        width: 300px;
+        padding-right: 25px;
+    }
+
+    li.lslide.active{
+        width: 300px;
+    }
+
+    .slideControls {
+        top: 55px;
+    }
 }

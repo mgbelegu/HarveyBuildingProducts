@@ -14,31 +14,51 @@
 </head>
 
 <body>
-    <div class="headContainer">
-        <div class="metamenu">
-            <ul class="utilityNav">
-                <li class="nav-item"><a href="">Find a contractor</a></li>
-                <li class="nav-item"><a href="">Visit a showroom</a></li>
-                <li class="nav-item"><a href="">Login</a></li>
-                <li class="nav-item"><img src="images/search-icon.png"></li>
-            </ul>
-        </div>
+    <header>
+        <div class="headContainer">
+            <div class="metamenu">
+                <ul class="utilityNav">
+                    <li class="nav-item"><a href="">Find a contractor</a></li>
+                    <li class="nav-item"><a href="howtobuy.html">Visit a showroom</a></li>
+                    <li class="nav-item"><a href="">Login</a></li>
+                    <li class="nav-item"><img src="images/search-icon.png"></li>
+                </ul>
+            </div>
 
-        <div class="menu">
-            <ul class="nav-ul">
-                <li class="logo"><a style="
-                    padding-top: 0px;
-                    padding-bottom: 0px;
-                " class="linkLogo" href="index.html"><img src="images/logo.png" alt=""></a></li>
-                <li class="nav-item"><a class="align-self-center" href="about.html">Get inspired</a></li>
-                <li class="nav-item"><a class="align-self-center" href="vinylwindows.html">Our products</a></li>
-                <li class="nav-item active"><a class="align-self-center" href="howtobuy.html">How to buy</a></li>
-                <li class="nav-item"><a class="align-self-center" href="support.html">Support center</a>
-                </li>
-                <li class="nav-item"><a class="align-self-center" href="forpros.html">For pros</a></li>
-            </ul>
-        </div>
+            <div class="menu-mobile">
+                <ul class="nav-ul-mobile">
+                    <li class="nav-item d-flex"><a class="align-self-center" href="about.html">Get inspired</a></li>
+                    <li class="nav-item d-flex"><a class="align-self-center" href="vinylwindows.html">Our products</a>
+                    </li>
+                    <li class="nav-item d-flex"><a class="align-self-center" href="howtobuy.html">How to buy</a></li>
+                    <li class="nav-item d-flex"><a class="align-self-center" href="support.html">Support center</a></li>
+                    <li class="nav-item d-flex"><a class="align-self-center" href="forpros.html">For pros</a></li>
+                </ul>
+            </div>
+    </header>
 
+
+    <div class="menu">
+        <ul class="nav-ul">
+            <li class="logo"><a style="
+                padding-top: 0px;
+                padding-bottom: 0px;
+            " class="linkLogo" href="index.html"><img src="images/logo.png" alt=""></a></li>
+            <li class="nav-item"><a class="align-self-center" href="about.html">Get inspired</a></li>
+            <li class="nav-item"><a class="align-self-center" href="vinylwindows.html">Our products</a></li>
+            <li class="nav-item"><a class="align-self-center" href="howtobuy.html">How to buy</a></li>
+            <li class="nav-item"><a class="align-self-center" href="support.html">Support center</a></li>
+            <li class="nav-item"><a class="align-self-center" href="forpros.html">For pros</a></li>
+            <li class="nav-item"><a class="align-self-center hamburger" href=""><img class="hamburger"
+                        src="images/location-button.png" alt=""></a>
+            </li>
+            <li class="nav-item"><a class="align-self-center hamburger" href=""><img src="images/search-button.png"
+                        alt=""></a>
+            </li>
+            <li class="nav-item"><img id="menu-button" class="align-self-center hamburger"
+                    src="images/hamburger-menu.png" alt="">
+            </li>
+        </ul>
     </div>
 
     <div class="container-fluid visit-showroom">
@@ -107,15 +127,28 @@
                             alt="search icon"></button>
                 </div>
 
-                <div class="row d-flex justify-content-center align-items-end">
-                    <div class="mapouter">
-                        <div class="gmap_canvas"><iframe width="750" height="615" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=10%20turnpike%20street%20west%20bridgewater&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                <div class="container-fluid d-flex justify-content-center">
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.7299150153162!2d-71.0707221845535!3d42.04897157920912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e48f61e2aea139%3A0xcc333e6a9c6d1766!2s10%20Turnpike%20St%2C%20West%20Bridgewater%2C%20MA%2002379%2C%20USA!5e0!3m2!1sen!2s!4v1582030269181!5m2!1sen!2s"
+                            width="705px" height="615px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+
+                    <div class="map-responsive1">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.7299150153162!2d-71.0707221845535!3d42.04897157920912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e48f61e2aea139%3A0xcc333e6a9c6d1766!2s10%20Turnpike%20St%2C%20West%20Bridgewater%2C%20MA%2002379%2C%20USA!5e0!3m2!1sen!2s!4v1582030269181!5m2!1sen!2s"
+                            width="505px" height="415px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+
+                    <div class="map-responsive2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.7299150153162!2d-71.0707221845535!3d42.04897157920912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e48f61e2aea139%3A0xcc333e6a9c6d1766!2s10%20Turnpike%20St%2C%20West%20Bridgewater%2C%20MA%2002379%2C%20USA!5e0!3m2!1sen!2s!4v1582030269181!5m2!1sen!2s"
+                            width="320px" height="230px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
-
             </div>
+
+
             <div class="col" style="margin-left: 26px;">
                 <div class="row findharvey">
                     <h2>FIND A HARVEY CONTRACTOR</h2>
@@ -143,32 +176,56 @@
 
     </div>
 
-    <div class="container-fluid lastbanner" style="margin-top: 25px;">
-        <div class="row">
-            <div class="col-3" style="padding-left: 0px;">
-                <img class="whoAreWe" src="images/whoarewe.png">
-            </div>
-            <div class="col-2 align-self-center">
+    <div class="container-fluid lastbanner-tablet">
+        <div class="row lb-row">
+            <div class="col-6 d-flex flex-wrap">
                 <h3>Who are we</h3>
-            </div>
-            <div class="col-7 align-self-center">
                 <p>
                     We may sell replacement windows, doors, and other quality building products, but that’s not what our
                     customers are buying. They’re buying the peace of mind that comes from working with a company that
                     stands behind every product, every day. So you aren’t just installing windows or siding or shingles.
                     You’re installing confidence.
                 </p>
-                <a style="margin-left: 15px;" href="about.html">SEE THE WHOLE STORY</a><img class="fixArrowPos"
+                <a href="about.html">SEE THE WHOLE STORY</a><img style="margin-left: 3px; height: 11px;"
+                    src="images/arrow-right-link.png" alt="">
+            </div>
+
+            <div class="col-6 d-flex justify-content-end" style="padding-right: 0px;">
+                <img class="whoAreWe-reverse" src="images/whoarewe-forpros-reverse.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid lastbanner-mobile">
+        <div class="row lb-row">
+            <div class="col-7 d-flex flex-wrap" style="padding: 0px">
+                <h3>Who are we</h3>
+                <p>
+                    We may sell replacement windows, doors, and other quality building products, but that’s not what our
+                    customers are buying. They’re buying the peace of mind that comes from working with a company that
+                    stands behind every product, every day. So you aren’t just installing windows or siding or shingles.
+                    You’re installing confidence.
+                </p>
+                <a href="about.html">SEE THE WHOLE STORY</a><img style="margin-left: 3px; height: 11px;"
                     src="images/arrow-right-link.png" alt="">
             </div>
         </div>
     </div>
 
+    <div class="container-fluid d-flex align-items-center footer-bar footer-mobile">
+        <div class="row">
+            <h6 class="tagline-mobile">
+                <strong>HARVEY.</strong> INSTALL
+                CONFIDENCE</h6>
+        </div>
+    </div>
+
     <div class="container-fluid footer-bar">
+
         <div class="row" style="
         margin-top: 0px;
         margin-right: 0px;">
-            <div class="socialIcon" style="padding-left: 45px;">
+            <div class="socialIcon first">
                 <a href=""><img src="images/youtube-icon.png" alt=""></a>
             </div>
             <div class="socialIcon">
@@ -180,7 +237,7 @@
             <div class="socialIcon">
                 <a href=""><img src="images/twitter-icon.png" alt=""></a>
             </div>
-            <div class="socialIcon" style="padding-right: 45px;">
+            <div class="socialIcon last">
                 <a href=""><img src="images/google-icon.png" alt=""></a>
             </div>
             <div class="footerLinks align-self-center">
@@ -188,15 +245,13 @@
 
             </div>
             <div class="footerLinks align-self-center">
-                <a href="">CONTACT US
+                <a href="support.html">CONTACT US
                     <img src="images/arrow-right-link.png" alt=""></a>
             </div>
 
             <h6 class="taglineh6 align-self-center">
                 <strong>HARVEY.</strong> INSTALL
                 CONFIDENCE</h6>
-
-
         </div>
     </div>
 
@@ -206,13 +261,13 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="lightslider.min.js"></script>
+    <script src="main.js"></script>
     <script src="howtobuy.js"></script>
 
 </body>

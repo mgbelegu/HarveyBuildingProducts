@@ -2,11 +2,11 @@ $(document).ready(function () {
     var slider = $('#lightSlider').lightSlider({
         gallery: true,
         item: 1,
-        loop: true,
+        loop: false,
         slideMargin: 0,
         thumbItem: 5,
         enableDrag: false,
-        adaptiveHeight: true
+        adaptiveHeight: false
     });
 
     $('.slideControls .slidePrev').click(function () {
