@@ -1,0 +1,411 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(232,232,232,1) 100%);
+}
+
+.visit-showroom {
+    background-color: transparent;
+}
+
+.visit-showroom h3{
+    margin-top: 83px;
+    margin-bottom: 52px;
+}
+
+.visit-showroom .row {
+    margin: 33px 37px;
+    margin-bottom: 0;
+    padding-top: 33px;  
+}
+
+.visit-showroom .col {
+    padding:0px 70px;
+    background-color: transparent;
+}
+
+.visit-showroom .col.rightcol {
+    padding:0px;
+    background-color: transparent;
+}
+
+
+a, p{
+    margin: 0;
+}
+
+.visit-showroom {
+    margin-top: 110px;
+}
+
+.visit-showroom h1{
+    color: #c41230;
+}
+
+.visit-showroom h3 {
+    font-family: Avenir-Medium;
+    color: #333745;
+}
+
+.suppLink {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.suppLink:hover {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.visit-showroom .row{
+    padding-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.visit-showroom .p-label {
+    margin-left: 70px;
+}
+
+.p-label a {
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    color: #333745;
+    text-decoration: none;
+}
+
+.p-label, .p-label-img {
+    margin-bottom: 50px;
+}
+
+mark {
+    text-decoration: none;
+    color: #c12340;
+    background-color: transparent;
+}
+
+input {
+    width: 290px;
+    padding: 11px 21px;
+    color: #333745;
+    background-color: #efefef;
+    border: 1px solid black;
+}
+
+.standardBtn {
+    padding: 8px;
+    margin: 0px;
+}
+
+div.row.row-3 {
+    margin: 0px 107px;
+    padding-bottom: 42px;
+}
+
+.row-3 .col{
+    padding-right: 0px;
+}
+
+.label-details{
+    margin-left: 70px;
+}
+
+div.row.divider{
+    margin: 0;
+    padding: 0;
+}
+
+div.row.divider img{
+    
+    width: 100vw - 214px;
+}
+
+.row-3 h3{
+    margin: 0px;
+}
+
+.results {
+    height: 54px;
+    background-color: #e8edf4;
+    margin-top: 0px;
+}
+
+.results p {
+    font-size: 22px;
+    color: #333745;
+    padding-left: 103px;
+}
+
+.row-4 {
+    padding: 0px;
+    margin: 31px 31px;
+}
+
+.r4-col, .r4-col.row, .r4-col.row.col {
+    padding: 0;
+    margin: 0;
+}
+
+
+.first-item, .third-item {
+    padding: 67px 67px;
+}
+
+
+.second-item, .fourth-item {
+    padding: 67px 67px;
+}
+
+.first-item{
+    border-right:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.second-item{
+    border-right:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+.third-item{
+    border-left:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.fourth-item{
+    border-left:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+#double-lines a{
+    text-decoration: none;
+    color: #333745;
+}
+
+.standardBtn {
+    height: 40px;
+    margin: 0px;
+}
+
+.helpbanner {
+    background-color: #e8edf4;
+    padding: 9px 107px;
+    margin-bottom: 6px;
+}
+
+.helpbanner a{
+    color: #c41230;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+select {
+    width: 100%;
+    padding: 11px 21px;
+    border-color: #333745;
+    color: #333745;
+}
+
+select {
+    background: url("images/arrow-down.png") no-repeat right #efefef;
+    -webkit-appearance: none;
+    background-position-x: 206px;
+}
+
+div.row.row-dropdowns {
+    margin: 0;
+    margin-left: 97px;
+    margin-bottom: 97px;
+    margin-right: 97px;
+    padding: 0;
+}
+
+
+div.row.row-dropdowns div.col {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.documents-container a{
+    font-size: 16px;
+    font-family: Verdana;
+    color: #333745;
+    font-weight: Verdana;
+    text-decoration: none;
+}
+
+.documents-container a.active {
+    font-weight: bold;
+}
+
+.dc-row1 {
+    margin: 36px 107px;
+}
+
+.drawing {
+    height: 271px;
+    width: 211px;
+    border: 1px solid black;
+}
+
+.dc-row2 {
+    margin: 36px 107px;
+}
+
+.dc-row3 {
+    margin: 36px 107px;
+    margin-bottom: 100px;
+}
+
+.nrOfPages {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+
+#window-style {
+    background-color: #e8edf4;
+    width: 100%;
+    padding: 22px 42px;
+}
+
+#window-style h5{
+    margin: 0;
+}
+
+a.window-link{
+    color: #333745 !important;
+    text-decoration: none !important;
+}
+
+div.windows {
+    margin-top: 33px;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+}
+
+#pabove {
+    margin-bottom: 110px;
+}
+
+.feature-title {
+    font-family: Avenir-Next-Regular;
+    margin-top: 36px;
+}
+
+.col.features {
+    background-image: url("images/window-vinyl.png") no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.feature-container {
+    width: auto;
+}
+
+.feature-container h3{
+    padding-bottom: 11px;
+}
+
+.window-vinyl {
+    height: 690px;
+    margin-right: 40px;
+    margin-top: -70px;
+}
+
+.row.windowdesigner {
+    background-color: #cd833b;
+    color: white;
+    padding: 39px 127px 27px 44px;
+}
+
+.row.findharvey {
+    background-color: #4e5256;
+    color: white;
+    margin-right: 3px;
+    padding: 39px 127px 39px 44px;
+}
+
+.row.findharvey button{
+    margin-top: 92px;
+}
+
+.row.windowdesigner button{
+    margin-top: 70px;
+}
+
+.zip {
+    margin-top: 92px;
+    height: 40px;
+    width: 130px;
+}
+
+.row.topofmap {
+    height: 55px;
+    background-color: #e8edf4;
+}
+
+.zipinput{
+    margin:0 16px;
+    width: 127px;
+    padding: 8px;
+    background-color: #e9e9e9;
+    border: 1px solid black;
+    font-family: Avenir-Black;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.searchBtnMap {
+    padding: 8px;
+    margin: 0px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.slider-HowToBuy {
+    width: 653px;
+    padding-right: 25px;
+}
+.slider-HowToBuy ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.slider-HowToBuy li {
+    display: block;
+    float: left;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+
+.slideControls{
+    position: absolute;
+    width: 100%;
+    top: 175px;
+    left: 0;
+
+}
+
+.slideNext{
+    right: 12px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.slidePrev{
+    left:0;
+    margin-left: -50px;
+    position: absolute;
+    cursor: pointer;
+}

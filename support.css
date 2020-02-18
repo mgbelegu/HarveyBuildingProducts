@@ -1,0 +1,466 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(232,232,232,1) 100%);
+}
+
+div .row {
+    margin: 0;
+}
+
+.support {
+    margin-top: 110px;
+}
+
+.support p {
+    line-height: 20px;
+}
+
+.support .col {
+    padding: 0px 35px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.support .row .col:first-child{
+    border-right: 2px solid #cbcccf;
+}
+
+.support h1{
+    margin-top: 46px;
+    color: #c41230;
+}
+
+#suppLink {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+ul {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #333745;
+    line-height: 30px;
+}
+
+.contact-p {
+    font-size: 22px;
+    margin-right: 0px;
+}
+
+.contact-p img{
+    margin-right: 10px;
+}
+
+mark {
+    text-decoration: none;
+    color: #c12340;
+    background-color: transparent;
+}
+
+form button.float-left {
+    display: none;
+}
+
+div .justify-content-between h5{
+    margin-left: 70px;
+}
+
+div .justify-content-between p{
+    margin-right: 70px;
+}
+
+.form-container #firstPartOfForm, #secondPartOfForm, #thirdPartOfForm, #fourth, #fifth{
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    width: 290px;
+    padding: 11px 21px;
+    border-color: #333745;
+    color: #333745;
+}
+
+select {
+    background: url("images/v.png") no-repeat right #efefef;
+    -webkit-appearance: none;
+    background-position-x: 268px;
+    
+}
+
+input {
+    width: 290px;
+    padding: 11px 21px;
+    border: 1px solid #333745;
+    color: #333745;
+}
+
+#formRedBg h6{
+    font-family: Avenir-Medium;
+    font-size: 20px;
+}
+
+#formRedBg {
+    background-color: #c12340;
+    padding: 20px 35px;
+    color: white;
+}
+
+#formRedBg p {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form div{
+    margin: 20px 35px;
+}
+
+#secondPartOfForm{
+    margin: 0;
+}
+
+#secondPartOfForm div{
+    margin: 20px 0 0 0;
+}
+
+#thirdPartOfForm {
+    margin: 0 35px
+}
+
+#thirdPartOfForm div{
+    margin: 0 35px
+}
+
+#streetAddress input {
+    width: 100%;
+}
+
+#streetAddress {
+    margin: 0 35px;
+    padding: 20px 35px;
+}
+
+#fourth {
+    margin: 0 35px;
+}
+
+#fourth-mobile {
+    display: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#fourth-mobile div{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#fourth-mobile div.clearfix{
+    margin-top: 20px;
+}
+
+#fourth div{
+    padding: 0 35px;
+    margin: 0;
+}
+
+#fourth input {
+    width: 200px;
+}
+
+#fourth select {
+    width: 150px;
+    background: url("images/v.png") no-repeat right white;
+    -webkit-appearance: none;
+    background-position-x: 130px;
+}
+
+#sixth input {
+    width: auto;
+}
+
+div.clearfix.float-left {
+    margin-top: 0px;
+}
+
+div.clearfix.float-right {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+#seventh {
+    padding: 0px 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#seventh textarea {
+    width: 100%;
+    height: 86px;
+    resize: none;
+}
+
+#seventh input {
+    width: auto;
+}
+
+.standardBtn {
+    padding: 8px;
+    margin: 0px;
+    margin-right: 70px;
+}
+
+input, textarea, select {
+    background-color: white;
+}
+
+@media only screen and (max-width: 1299px) {
+    .support .row .col:first-child{
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .support .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    select {
+        width: 100%;
+    }
+    
+    select {
+        background-position-x: 90%;
+    }
+    
+    input {
+        width: 100%;
+    }
+
+    #firstPartOfForm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #firstPartOfForm select{
+        width: 100%;
+        background-position-x: 97%;
+        transition: width 200ms;
+    }
+
+    #secondPartOfForm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #secondPartOfForm input{
+        width: 100%;
+        transition: width 200ms;
+    }
+
+    #thirdPartOfForm {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #thirdPartOfForm input{
+        width: 100%;
+        transition: width 200ms;
+    }
+
+    #fourth {
+        display: none;
+    }
+
+    #fourth-mobile {
+        display: block;
+    }
+
+    #fifth {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #fifth input{
+        width: 100%;
+        transition: width 200ms;
+    }
+
+    #sixth {
+        display: none;
+    }
+}
+
+    #fourth-mobile .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #fourth-mobile .row .col{
+        padding: 0px 35px;
+    }
+
+
+@media only screen and (max-width: 735px) {
+
+    #fourth-mobile .row .col{
+        padding: 0px;
+    }
+
+    #fourth-mobile .row .col:first-child{
+        padding-right: 9px;
+    }
+
+    label{
+        font-size: 11px;
+    }
+    select{
+        font-size: 11px;
+    }
+    input{
+        font-size: 11px;
+    }
+
+    #formRedBg p{
+        font-size: 11px;
+    }
+
+    h5{
+        font-size: 30px;
+    }
+
+    .support .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .support {
+        margin-top: 65px;
+    }
+
+    .support .col {
+        padding: 0px;
+        margin-top: 37px;
+    }
+
+    .support p{
+        margin-left: 11px;
+        font-size: 11px;
+    }
+
+    .support h1{
+        margin-left: 11px;
+        font-size: 26px;
+        margin-top: 0px;
+    }
+
+    .support ul li{
+        font-size: 11px;
+    }
+
+    .support #suppLink{
+        display: none;
+    }
+
+    #firstPartOfForm {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #firstPartOfForm div{
+        margin: 9px 0px;
+    }
+
+    #formRedBg {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #formRedBg div{
+        margin: 9px 0px;
+    }
+
+    #thirdPartOfForm {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #thirdPartOfForm div{
+        margin: 9px 0px;
+    }
+
+    div .justify-content-between h5{
+        margin-left: 11px;
+    }
+
+    div .justify-content-between p{
+        margin-right: 11px;
+    }
+
+    #streetAddress {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #streetAddress div{
+        margin: 9px 0px;
+    }
+
+    #fourth-mobile {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #fourth-mobile div{
+        margin: 9px 0px;
+    }
+
+    #fifth {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #fifth div{
+        margin: 9px 0px;
+    }
+
+    #seventh {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin: 0px;
+    }
+
+    #seventh div{
+        margin: 9px 0px;
+    }
+
+    form button.float-right {
+        display: none;
+    }
+
+    form button.float-left {
+        display: block;
+        margin-left: 11px;
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,434 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(232,232,232,1) 100%);
+}
+
+.rep-parts .row {
+    margin: 33px 37px;
+    margin-bottom: 0;
+    padding-top: 33px;
+}
+
+.rep-parts .col {
+    padding-right: 70px;
+}
+
+
+a, p{
+    margin: 0;
+}
+
+.rep-parts {
+    margin-top: 110px;
+}
+
+.rep-parts h1{
+    color: #c41230;
+}
+
+.suppLink {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.suppLink:hover {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.rep-parts .row{
+    padding-top: 32px;
+}
+
+.rep-parts .p-label {
+    margin-left: 70px;
+}
+
+.p-label a {
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    color: #333745;
+    text-decoration: none;
+}
+
+.p-label, .p-label-img {
+    margin-bottom: 70px;
+}
+
+.p-label-img {
+    display: flex;
+    justify-content: end;
+}
+
+mark {
+    text-decoration: none;
+    color: #c12340;
+    background-color: transparent;
+}
+
+input {
+    width: 290px;
+    padding: 11px 21px;
+    color: #333745;
+    border: 1px solid black;
+}
+
+.standardBtn {
+    padding: 8px;
+    margin: 0px;
+}
+
+div.row.row-3 {
+    margin: 0px 107px;
+    padding-bottom: 42px;
+}
+
+.row-3 .col{
+    padding-right: 0px;
+}
+
+.label-details{
+    margin-left: 70px;
+}
+
+div.row.divider{
+    margin: 0;
+    padding: 0;
+}
+
+div.row.divider img{
+    
+    width: 100%;
+}
+
+.row-3 h3{
+    margin: 0px;
+}
+
+.results {
+    height: 54px;
+    background-color: #e8edf4;
+    margin-top: 0px;
+}
+
+.results p {
+    font-size: 22px;
+    color: #333745;
+    padding-left: 103px;
+}
+
+.row-4 {
+    padding: 0px;
+    margin: 31px 31px;
+}
+
+.r4-col, .r4-col.row, .r4-col.row.col {
+    padding: 0;
+    margin: 0;
+}
+
+
+.first-item, .third-item {
+    padding: 67px 67px;
+}
+
+
+.second-item, .fourth-item {
+    padding: 67px 67px;
+}
+
+.first-item{
+    border-right:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.second-item{
+    border-right:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+.third-item{
+    border-left:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.fourth-item{
+    border-left:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+#double-lines a{
+    text-decoration: none;
+    color: #333745;
+}
+
+.standardBtn {
+    margin-top: 19px;
+}
+
+.helpbanner {
+    background-color: #e8edf4;
+    padding: 9px 107px;
+    margin-bottom: 6px;
+}
+
+.helpbanner a{
+    color: #c41230;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+.row-3 .col:nth-child(5){
+    display: flex;
+    justify-content: center;
+}
+
+.product-code-mobile{
+    width: 100%;
+    display: none;
+}
+
+.row-3 .col{
+    margin-right: 10px;
+}
+
+img.parts{
+    height: 170px;
+    transition: height 200ms;
+}
+
+.first-item .col:first-child{
+    margin-right: 12px;
+}
+.second-item .col:first-child{
+    margin-right: 12px;
+}
+.third-item .col:first-child{
+    margin-right: 12px;
+}
+.fourth-item .col:first-child{
+    margin-right: 12px;
+}
+
+@media only screen and (max-width: 1270px){
+    .first-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1145px){
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-label-img {
+        justify-content: center;
+    }
+
+    .p-label-img{
+        margin-bottom: 24px;
+    }
+
+    .rep-parts .row-2 .col:first-child{
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .rep-parts .row-2 .col:nth-child(2){
+        padding: 0px;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .rep-parts .row {
+        margin-top: 0px;
+    }
+
+    .suppLink {
+        display: none;
+    }
+
+    .rep-parts {
+        margin-top: 0px;
+    }
+
+    .row-3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rep-parts .col {
+        padding-right: 0px;
+    }
+
+    .rep-parts div.row.row-3 {
+        margin: 0px 11px !important;
+    }
+
+    .rep-parts .row-3 .col:nth-child(5){
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+
+    .first-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fourth-item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rep-parts .row-3 .col:nth-child(5){
+        display: flex;
+        justify-content: start;
+    }
+
+    .rep-parts .row {
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    label {
+        font-size: 11px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .p-label-img img{
+        width: 100%;
+    }
+
+    .product-code-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .product-code-mobile div:first-child{
+        margin-right: 8px;
+    }
+
+    .product-code-mobile input{
+        width: 100%;
+    }
+
+    .rep-parts .row-3 .col:nth-child(2){
+        display: none;
+    }
+
+    .rep-parts .row-3 .col:nth-child(3){
+        display: none;
+    }
+
+    .row-3 {
+        text-align: left;
+    }
+
+    .results p{
+        font-size: 17px;
+        text-align: left;
+        padding-left: 11px;
+    }
+
+    .row .first-item {
+        padding: 14px 12px;
+    }
+
+    .row .second-item {
+        padding: 14px 12px;
+    }
+
+    .row .third-item {
+        padding: 14px 12px;
+    }
+
+    .row .fourth-item {
+        padding: 14px 12px;
+    }
+
+    .row-4 {
+        margin: 11px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.parts {
+        height: 150px;
+        transition: height 200ms;
+    }
+
+    .r4-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .helpbanner {
+        padding: 11px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    img.parts{
+        width: auto;
+        height: 79px;
+    }
+}
+
+wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 17px;
+    font-family: Avenir-Medium;
+    text-transform: uppercase;
+}

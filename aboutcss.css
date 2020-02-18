@@ -1,0 +1,106 @@
+.subhead_intro_bar{
+    width: 60%;
+    padding-bottom: 69px;
+}
+
+.subhead_intro_bar p a{
+    font-family: Verdana;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 6px;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.featuredImage {
+    position: absolute;
+    width: 100%;
+    
+}
+
+.about-carousel {
+    height: 750px;
+    background-image: url("images/about-carousel-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-info h4 p {
+    color: #333745;
+    padding: 0px;
+    margin: 0px;
+}
+
+.about-info a {
+    padding: 0;
+    margin: 0;
+    color: #c41230;
+}
+
+.about-container .col {
+    padding: 50px 48px 53px 48px;
+}
+
+.about-container {
+    background-color: #efefef;
+}
+
+div .row {
+    margin: 0;
+}
+
+@media only screen and (max-width: 950px){
+    .subhead_intro_bar{
+        padding: 12px 15px 30px 12px;
+    }
+
+    .pageTitleBar {
+        padding-left: 12px;
+    }
+    
+    .about-carousel {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+
+    .subhead_intro_bar{
+        width: 320px !important;
+    }
+
+    .subhead_intro_bar h3{
+        font-size: 17px;
+    }
+
+    .subhead_intro_bar p a{
+        font-size: 11px;
+    }
+
+    .about-carousel {
+        height: 350px;
+    }
+
+    .about-container .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about-container .row h4{
+        font-size: 17px;
+    }
+
+    .about-container .row p{
+        font-size: 11px;
+    }
+
+    div.col.about-info {
+        padding: 14px 29px;
+    }
+}
+
+.lastbanner-mobile {
+    background-image: url("images/whoarewe-about-reverse.png");
+}

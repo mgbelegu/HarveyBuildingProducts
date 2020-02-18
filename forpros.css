@@ -1,0 +1,326 @@
+.subhead_intro_bar{
+    width: 50%;
+    padding-bottom: 69px;
+}
+
+.subhead_intro_bar a{
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.featuredImage {
+    position: absolute;
+    width: 100%;
+    
+}
+
+.forpros-carousel {
+    height: 750px;
+    background-image: url("images/forpros-carousel-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div .row {
+    margin-top: 3px;
+}
+
+.specsAndDrawing {
+    background-color: #95a886;
+    color: white;
+}
+
+.specsAndDrawing .col {
+    padding: 50px 40px;
+}
+
+.specsAndDrawing h2 {
+    color: white;
+}
+
+.specsAndDrawing p {
+    color: white;
+    margin: 0;
+}
+
+.specsAndDrawing a{
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.specsAndDrawing a img{
+    padding-top: 30px;
+}
+
+.standardBtn {
+    padding: 8px;
+    margin-left: 0px;
+}
+
+.pdf-link {
+    margin-top: 30px;
+}
+
+.pdf-link a{
+    margin-left: 0;
+}
+
+.pdf-link img{
+    margin-right: 15px;
+}
+
+.calendar-container p{
+    font-family: Avenir-Medium;
+    margin: 0;
+}
+
+.calendar-row {
+    border-top: 2px solid #e5ebf3;
+    border-bottom: 2px solid #e5ebf3;
+    margin-top: 1px;
+    padding: 20px 105px;
+    color: #333745;
+}
+
+.calendar-row h5{
+    text-transform: none;
+}
+
+.calendarIMG {
+    margin-right: 23px;
+}
+
+.calendar-container .col {
+    padding: 84px 40px 0px;
+}
+
+.calendar-container .col a {
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #c41230;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.card1 {
+    background-color: #333745;
+    color: white;
+    padding: 84px 40px;
+}
+
+.card2 {
+    background-color: #c41230;
+    color: white;
+    padding: 84px 40px;
+}
+
+.card2 a{
+    color: white !important;
+}
+
+.card2 .col {
+    padding: 0;
+    margin: 0;
+}
+
+.card3 {
+    background-color: #8f9087;
+    color: white;
+    padding: 84px 40px;
+}
+
+.card1 button, .card3 button {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.lastbanner-mobile {
+    background-image: url("images/whoarewe-forpros-reverse.png");
+    min-height: 200px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: #e8e8e8;
+}
+
+.hide{
+    display: none;
+}
+
+.calendar-mobile{
+    display: none;
+}
+
+.card2 .col:first-child{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 1165px){
+    .subhead_intro_bar{
+        padding-left: 100px;
+    }
+
+    .pageTitleBar {
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .hide{
+        display: block;
+    }
+
+    .specsAndDrawing .row .col:nth-child(3){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px){
+
+    .float-right {
+        height: 77px;
+    }
+    .subhead_intro_bar p{
+        display: none;
+    }
+
+    .forpros-carousel {
+        height: 550px;
+    }
+
+    .calendar-container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calendar-row {
+        flex-direction: row;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .row .card2 {
+        flex-direction: row;
+    }
+
+    .calendarIMG {
+        width: 77px;
+    }
+
+    .calendar-mobile{
+        display: block;
+    }
+
+    .calendar-normal {
+        display: none;
+    }
+
+    .card1{
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .card1 button{
+        width: 150px;
+    }
+
+    .card2 {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .card3{
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .card3 button{
+        width: 220px;
+    }
+
+    .row {
+        margin-right: 0px;
+    }
+
+    .calendar-container .col {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .subhead_intro_bar{
+        padding-left: 11px;
+        padding-right: 10px;
+    }
+
+    .pageTitleBar {
+        padding-left: 11px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    .forpros-carousel {
+        height: 350px;
+    }
+
+    .subhead_intro_bar h3 {
+        font-size: 17px;
+    }
+
+    .subhead_intro_bar a {
+        font-size: 17px;
+    }
+
+    .subhead_intro_bar {
+        padding-bottom: 16px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    h5 {
+        font-size: 17px
+    }
+
+    .specsAndDrawing a{
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .specsAndDrawing .col{
+        padding: 24px 11px 12px 11px;
+    }
+
+    .card1 {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    .card2 {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    .card3 {
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    .pdf-link {
+        margin-top: 12px;
+    }
+}

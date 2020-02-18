@@ -1,0 +1,180 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(232,232,232,1) 100%);
+}
+
+div .row {
+    margin: 0;
+}
+
+div {
+    background-color: transparent;
+}
+
+.support {
+    margin-top: 110px;
+}
+
+.support p {
+    line-height: 30px;
+}
+
+.support p.active {
+    background-color: #c41230;
+    color: white;
+}
+
+.support .col {
+    padding: 0px 38px;
+    padding-left: 38px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+div.col-4{
+    padding-right: 0px;
+}
+
+div.col.choose {
+    padding-right: 0px;
+}
+
+.support h1{
+    margin-top: 46px;
+    color: #c41230;
+}
+
+#suppLink {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.choose p{
+    cursor: pointer;
+    padding: 10px 21px;
+    margin: 0;
+}
+
+.choose .col .row {
+    margin: 0;
+    padding: 0;
+}
+
+#text-info1 {
+    display: block;
+}
+
+#text-info2, #text-info3, #text-info4, #text-info5, #text-info6, #text-info7, #text-info8, #text-info9 {
+    display: none;
+}
+
+
+#text-info10, #text-info11, #text-info12, #text-info13, #text-info14, #text-info15, #text-info16, #text-info17, #text-info18, #text-info19 {
+    display: none;
+}
+
+ul{
+    font-family: Verdana;
+    font-size: 14px;
+    color: #333745;
+    line-height: 30px;
+}
+
+.warrantybox {
+    background-color: #e8edf4;
+    padding: 33px 35px;
+}
+
+.warrantybox p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    margin-bottom: 29px;
+}
+
+.warrantybox h5 {
+    margin-bottom: 35px;
+}
+
+
+.warrantybox h5.aboveLabel {
+    margin-bottom: 8px;
+}
+
+.warrantybox img{
+    margin-bottom: 24px;
+}
+
+select {
+    background: url("images/arrow-down.png") no-repeat right #fff;
+    -webkit-appearance: none;
+    background-position-x: 226px;
+}
+
+select {
+    width: 266px;
+    padding: 11px 21px;
+    border-color: #333745;
+    color: #333745;
+    margin-bottom: 11px;
+}
+
+.searchBtn {
+    padding: 8px;
+    margin: 0;
+    margin-top: 65px;
+}
+
+.searchBtn2 {
+    padding: 8px;
+    margin: 0;
+    margin-top: 34px;
+}
+
+.choose h2{
+    font-family: Avenir-Medium;
+}
+
+.category {
+    margin-left: 75px;
+}
+
+.choose .row h2{
+    margin-left: 75px;
+}
+
+div.col-4{
+    margin-left: 50px;
+}
+
+.activeLink {
+    color: #c41230;
+    font-weight: bold;
+}
+
+#doorLinks, #porchLinks {
+    display: none;
+}
+
+.lastrow {
+    background-color: #e8edf4;
+    margin-bottom: 13px !important;
+}
+
+.lastrow p {
+    line-height: 20px;
+    margin: 0px;
+}
+
+.lastrow a{
+    margin: 0px;
+    color: #333745;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lastrow a.last{
+    color: #c41230;
+}

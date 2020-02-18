@@ -1,0 +1,442 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgba(232,232,232,1) 100%);
+}
+
+.rep-parts .row {
+    margin: 33px 37px;
+    margin-bottom: 0;
+    padding-top: 33px;
+}
+
+.rep-parts .col {
+    padding-right: 70px;
+}
+
+
+a, p{
+    margin: 0;
+}
+
+.rep-parts {
+    margin-top: 110px;
+}
+
+.rep-parts h1{
+    color: #c41230;
+    text-transform: uppercase;
+}
+
+.suppLink {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.suppLink:hover {
+    font-family: Avenir-Black;
+    font-size: 16px;
+    color: #c12340;
+    text-decoration: none;
+    margin: 0;
+}
+
+.rep-parts .row{
+    padding-top: 32px;
+}
+
+.rep-parts .p-label {
+    margin-left: 70px;
+}
+
+.p-label a {
+    font-family: Avenir-Next-Demi-Bold;
+    font-size: 14px;
+    color: #333745;
+    text-decoration: none;
+}
+
+.p-label, .p-label-img {
+    margin-bottom: 50px;
+}
+
+mark {
+    text-decoration: none;
+    color: #c12340;
+    background-color: transparent;
+}
+
+input {
+    width: 290px;
+    padding: 11px 21px;
+    color: #333745;
+    border: 1px solid black;
+}
+
+.standardBtn {
+    padding: 8px;
+    margin: 0px;
+}
+
+div.row.row-3 {
+    margin: 0px 107px;
+    padding-bottom: 42px;
+}
+
+.row-3 .col{
+    padding-right: 0px;
+}
+
+.label-details{
+    margin-left: 70px;
+}
+
+div.row.divider{
+    margin: 0;
+    padding: 0;
+}
+
+div.row.divider img{
+    
+    width: 100vw - 214px;
+}
+
+.row-3 h3{
+    margin: 0px;
+}
+
+.results {
+    height: 54px;
+    background-color: #e8edf4;
+    margin-top: 0px;
+}
+
+.results p {
+    font-size: 22px;
+    color: #333745;
+    padding-left: 103px;
+}
+
+.row-4 {
+    padding: 0px;
+    margin: 31px 31px;
+}
+
+.r4-col, .r4-col.row, .r4-col.row.col {
+    padding: 0;
+    margin: 0;
+}
+
+
+.first-item, .third-item {
+    padding: 67px 67px;
+}
+
+
+.second-item, .fourth-item {
+    padding: 67px 67px;
+}
+
+.first-item{
+    border-right:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.second-item{
+    border-right:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+.third-item{
+    border-left:1px solid #e8edf4;
+    border-bottom:1px solid #e8edf4;
+}
+
+.fourth-item{
+    border-left:1px solid #e8edf4;
+    border-top:1px solid #e8edf4;
+}
+
+#double-lines a{
+    text-decoration: none;
+    color: #333745;
+}
+
+.standardBtn {
+    margin-top: 19px;
+}
+
+.helpbanner {
+    background-color: #e8edf4;
+    padding: 9px 107px;
+    margin-bottom: 6px;
+}
+
+.helpbanner a{
+    color: #c41230;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+select {
+    width: 100%;
+    padding: 11px 21px;
+    border-color: #333745;
+    color: #333745;
+}
+
+select {
+    background: url("images/arrow-down.png") no-repeat right;
+    -webkit-appearance: none;
+    background-position-x: 95%;
+}
+
+div.row.row-dropdowns {
+    margin: 0;
+    margin-left: 97px;
+    margin-bottom: 97px;
+    margin-right: 97px;
+    padding: 0;
+}
+
+
+div.row.row-dropdowns div.col {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.documents-container a{
+    font-size: 16px;
+    font-family: Verdana;
+    color: #333745;
+    font-weight: Verdana;
+    text-decoration: none;
+}
+
+.documents-container a.active {
+    font-weight: bold;
+}
+
+.dc-row1 {
+    margin: 36px 107px;
+}
+
+.drawing {
+    height: 271px;
+    width: 211px;
+    border: 1px solid black;
+}
+
+.dc-row2 {
+    margin: 36px 107px;
+}
+
+.dc-row3 {
+    margin: 36px 107px;
+    margin-bottom: 100px;
+}
+
+.nrOfPages {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+p.clear-all{
+    text-align: right;
+    font-size: 14px;
+    font-family: Avenir-Next-Demi-Bold;
+    margin-top: 19px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.nrOfPages-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.dc-row2-mobile {
+    display: flex;
+    flex-direction: column;
+}
+.dc-row1-mobile {
+    margin: 15px 11px;
+    display: none;
+}
+
+.dc-row2-mobile {
+    margin: 15px 11px;
+    display: none;
+}
+
+
+
+.dc-row2-mobile .col{
+    margin: 8px 0;
+    text-align: left;
+}
+
+select {
+    text-transform: uppercase;
+}
+
+.row-dropdowns .col:nth-child(5){
+    display: none;
+}
+
+.searchBtn {
+    padding: 8px;
+    margin: 0px;
+    margin-top: 18px;
+    display: none;
+    font-size: 12px;
+}
+
+.let-us-know-mobile {
+    display: none;
+}
+
+div.row.divider img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .row-dropdowns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    select {
+        background: url("images/arrow-down-gray.png")  no-repeat right;
+        -webkit-appearance: none;
+        background-position-x: 95%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .let-us-know-mobile {
+        display: block;
+    }
+
+    .let-us-know-mobile strong {
+        color: #c41230;
+    }
+
+    .let-us-know-mobile p {
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    h4 {
+        font-size: 11px;
+    }
+
+    .let-us-know {
+        display: none;
+    }
+
+    p.clear-all {
+        display: none;
+    }
+
+    .searchBtn {
+        display: block;
+    }
+
+    .row-dropdowns .col:nth-child(5){
+        display: block;
+    }
+
+    .suppLink {
+        display: none;
+    }
+    .dc-row1 {
+        display: none;
+    }
+
+    .dc-row2 {
+        display: none;
+    }
+
+    .dc-row3 {
+        display: none;
+    }
+
+    .dc-row1-mobile {
+        display: flex;
+    }
+
+    .dc-row2-mobile {
+        display: flex;
+    }
+
+    .rep-parts .row:first-child {
+        margin: 11px;
+        padding: 0px !important;
+    }
+
+    .rep-parts {
+        margin-top: 101px;
+    }
+
+    .rep-parts h1 {
+        margin: 0px !important;
+        font-family: Avenir-Roman;
+        font-size: 26px;
+        text-transform: none;
+    }
+
+    .rep-parts h3 {
+        font-family: Avenir-Medium;
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    label {
+        font-size: 11px;
+    }
+
+    select {
+        font-size: 11px;
+        text-transform: none;
+    }
+    .row-2 {
+        margin: 17px 11px 0 11px !important;
+    }
+
+    div.row.row-2 {
+        padding-top: 0px !important;
+    }
+
+    .rep-parts .p-label {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.row.row-dropdowns {
+        margin: 11px;
+    }
+
+    div.row.row-dropdowns div.col{
+        padding: 0;
+    }
+
+    .nrOfPages-mobile p {
+        font-size: 12px;
+        font-family: Avenir-Next-Demi-Bold;
+    }
+
+    .dc-row2-mobile a {
+        font-size: 12px;
+        font-family: Avenir-Next-Demi-Bold;
+    }
+}
